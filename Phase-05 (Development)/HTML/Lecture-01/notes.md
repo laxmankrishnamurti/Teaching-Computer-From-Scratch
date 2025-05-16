@@ -33,4 +33,3 @@ This is an application software used to write code. Almost every code we write i
   - Helps to find out potential bugs in our code
   - Code Redability -> High
   - It beautifys our code.
-  - User Friendly
