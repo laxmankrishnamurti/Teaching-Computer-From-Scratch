@@ -39,4 +39,6 @@ git branch
 git branch -m <new_branch_name>
 ```
 
-Now, all are set.
+all are set.
+
+Now, you can push your local files on your remote location(GitHub).
