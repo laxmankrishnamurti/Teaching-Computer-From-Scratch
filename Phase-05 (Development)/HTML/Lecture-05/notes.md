@@ -22,7 +22,7 @@ Shortcut key to get HTML Boilerplate-Code : **SHIFT + !**
 
 There is a file named **_student_data.ods_**
 
-When i doubble click on the file
+When i double click on the file
 
 - OS will read the content of the file
 - And then matches the file extension
