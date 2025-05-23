@@ -1,25 +1,25 @@
-# What is Rendering ?
+## What is Rendering ?
 
 It is a process where application is trying to show the output of the code.
 
-# Why do we need a IDE (Integrated Development Environment) ?
+## Why do we need a IDE (Integrated Development Environment) ?
 
 - It is an application software specially designed for writing code.
 - There are lots of IDE which we can install on our system.
 
 Ex :- VS Code, Webstrom, Intellij IDEA, Notepad++, Sublime Text Editor, etc.
 
-# Why do we have choosen VS Code?
+## Why do we have choosen VS Code?
 
 - First of all, it is a light-weight IDE.
 - Easy to Use.
 
-# Why do we need a boilerplate code?
+## Why do we need a boilerplate code?
 
 - It provides basic /structure layout of a webpage(A page where we render our content).
 - It helps in SEO (Search Engine Optimization).
 
-# Boilerplate Code Explanation.
+## Boilerplate Code Explanation.
 
 ```html
 <!DOCTYPE html>
