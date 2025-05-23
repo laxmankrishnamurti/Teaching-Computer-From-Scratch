@@ -27,6 +27,8 @@ Ex :- VS Code, Webstrom, Intellij IDEA, Notepad++, Sublime Text Editor, etc.
 
 With that we tell the browser that this is going to be a HTML file.
 
+## HTML Tag
+
 ```html
 <html lang="en"></html>
 ```
