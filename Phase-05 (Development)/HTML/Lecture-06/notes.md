@@ -1,3 +1,5 @@
+# Inner working of a Web-Browser and Boilerplate Code
+
 ## What is Rendering ?
 
 It is a process where application is trying to show the output of the code.
