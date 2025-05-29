@@ -7,5 +7,3 @@
 - Main Content
 - Testimonial Page
 - Footer
-
-# Journey of a Webb
