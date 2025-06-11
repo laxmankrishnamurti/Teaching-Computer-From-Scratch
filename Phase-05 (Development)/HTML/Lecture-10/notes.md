@@ -18,3 +18,7 @@
 <span></span>
 <a href=""></a>
 ```
+
+## What is a Comment ?
+
+Comment is just a reference of some text that will not render on the webpage. 
