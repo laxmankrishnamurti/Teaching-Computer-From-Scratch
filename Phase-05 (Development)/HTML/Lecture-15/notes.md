@@ -16,7 +16,7 @@
 * `<div class="container">`: A generic container for grouping elements. Used for layout and styling.
 * `<p>`: Defines a paragraph of text.
 * `<h1 id="main-title">` to `<h6>`: Define headings, with `<h1>` being the most important.
-* `<hr>`: Inserts a horizontal rule (line), used to separate content.
+* `<hr> : Horizontal Ruler`: Inserts a horizontal rule (line), used to separate content.
 * `<pre>`: Displays preformatted text preserving whitespace and line breaks.
 * `<blockquote cite="source.html">`: Indicates a section that is quoted from another source.
 * `<address>`: Provides contact information for a person or organization.
