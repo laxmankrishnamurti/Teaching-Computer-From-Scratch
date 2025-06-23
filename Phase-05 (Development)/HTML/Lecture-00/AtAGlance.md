@@ -163,29 +163,29 @@ ____
 
 ### 📄 Document Structure
 
-* `<html>`: The root element of an HTML document. Wraps the entire HTML content.
+* `<html lang="en">`: The root element of an HTML document. Wraps the entire HTML content.
 * `<head>`: Contains metadata, title, styles, and scripts. Not displayed on the page.
 * `<body>`: Contains the visible content of the web page.
 * `<title>`: Sets the title shown in the browser tab.
-* `<meta>`: Provides metadata like character set, author, and viewport settings.
-* `<link>`: Links external resources like CSS files.
-* `<style>`: Embeds internal CSS styles.
-* `<script>`: Adds or links to JavaScript for interactivity.
+* `<meta charset="UTF-8">`: Provides metadata like character set, author, and viewport settings.
+* `<link rel="stylesheet" href="style.css">`: Links external resources like CSS files.
+* `<style type="text/css">`: Embeds internal CSS styles.
+* `<script type="text/javascript">`: Adds or links to JavaScript for interactivity.
 
 ### 🧾 Text & Layout
 
-* `<div>`: A generic container for grouping elements. Used for layout and styling.
+* `<div class="container">`: A generic container for grouping elements. Used for layout and styling.
 * `<p>`: Defines a paragraph of text.
-* `<h1>` to `<h6>`: Define headings, with `<h1>` being the most important.
+* `<h1 id="main-title">` to `<h6>`: Define headings, with `<h1>` being the most important.
 * `<hr>`: Inserts a horizontal rule (line), used to separate content.
 * `<pre>`: Displays preformatted text preserving whitespace and line breaks.
-* `<blockquote>`: Indicates a section that is quoted from another source.
+* `<blockquote cite="source.html">`: Indicates a section that is quoted from another source.
 * `<address>`: Provides contact information for a person or organization.
 
 ### 📋 Lists
 
 * `<ul>`: Unordered list (bulleted).
-* `<ol>`: Ordered list (numbered).
+* `<ol type="1">`: Ordered list (numbered).
 * `<li>`: List item inside `<ul>` or `<ol>`.
 * `<dl>`: Description list. Used to pair terms and descriptions.
 * `<dt>`: Term/name in a description list.
@@ -193,13 +193,13 @@ ____
 
 ### 📊 Tables
 
-* `<table>`: Defines a table.
+* `<table border="1">`: Defines a table.
 * `<thead>`: Groups header content in a table.
 * `<tbody>`: Groups body content in a table.
 * `<tfoot>`: Groups footer content in a table.
 * `<tr>`: Table row.
-* `<td>`: Table cell (data).
-* `<th>`: Table cell (header).
+* `<td colspan="2">`: Table cell (data).
+* `<th scope="col">`: Table cell (header).
 
 ### 📦 Semantic Layout
 
@@ -215,15 +215,15 @@ ____
 
 ### 🧾 Forms
 
-* `<form>`: Defines a form to collect user input.
-* `<fieldset>`: Groups related elements in a form.
+* `<form action="/submit" method="post">`: Defines a form to collect user input.
+* `<fieldset disabled>`: Groups related elements in a form.
 * `<legend>`: Provides a caption for a `<fieldset>`.
 
 ### 🖼️ Media
 
-* `<canvas>`: Used to draw graphics via scripting (like JavaScript).
-* `<video>`: Embeds a video player.
-* `<audio>`: Embeds an audio player.
+* `<canvas width="300" height="150">`: Used to draw graphics via scripting (like JavaScript).
+* `<video controls src="video.mp4">`: Embeds a video player.
+* `<audio controls src="audio.mp3">`: Embeds an audio player.
 * `<noscript>`: Content shown if JavaScript is disabled in the browser.
 
 ---
@@ -232,49 +232,49 @@ ____
 
 ### 🔤 Text Formatting
 
-* `<span>`: Generic inline container. Useful for styling specific text.
+* `<span class="highlight">`: Generic inline container. Useful for styling specific text.
 * `<strong>`: Indicates strong importance. Typically bold.
 * `<em>`: Emphasizes text. Typically italic.
 * `<small>`: Displays text in a smaller font.
 * `<mark>`: Highlights text.
-* `<del>`: Represents deleted text.
-* `<ins>`: Represents inserted text.
+* `<del datetime="2020-01-01">`: Represents deleted text.
+* `<ins datetime="2020-01-02">`: Represents inserted text.
 * `<sub>`: Subscript text (e.g., H₂O).
 * `<sup>`: Superscript text (e.g., x²).
-* `<abbr>`: Abbreviation. Displays a tooltip on hover.
+* `<abbr title="HyperText Markup Language">`: Abbreviation. Displays a tooltip on hover.
 * `<cite>`: Cites a creative work.
 * `<code>`: Displays inline code.
-* `<q>`: Short inline quotation.
-* `<time>`: Represents a date/time value.
+* `<q cite="source.html">`: Short inline quotation.
+* `<time datetime="2025-06-23">`: Represents a date/time value.
 
 ### 🔗 Links & Navigation
 
-* `<a>`: Defines a hyperlink to another page or location.
+* `<a href="https://example.com" target="_blank">`: Defines a hyperlink to another page or location.
 
 ### 🖼️ Media & Embeds
 
-* `<img>`: Embeds an image.
+* `<img src="image.jpg" alt="description">`: Embeds an image.
 * `<br>`: Line break. Moves content to a new line.
-* `<source>`: Specifies media resources for `<video>` or `<audio>`.
-* `<embed>`: Embeds external content like PDFs or Flash.
-* `<object>`: Embeds objects like multimedia or applets.
-* `<iframe>`: Embeds another webpage inside the current one.
+* `<source src="media.mp4" type="video/mp4">`: Specifies media resources for `<video>` or `<audio>`.
+* `<embed src="file.pdf" type="application/pdf">`: Embeds external content like PDFs or Flash.
+* `<object data="file.swf" type="application/x-shockwave-flash">`: Embeds objects like multimedia or applets.
+* `<iframe src="https://example.com" width="600" height="400">`: Embeds another webpage inside the current one.
 
 ### 🧾 Forms
 
-* `<label>`: Defines a label for an input element.
-* `<input>`: User input control (text, checkbox, etc).
-* `<textarea>`: Multi-line text input.
-* `<button>`: Clickable button.
-* `<select>`: Dropdown list.
-* `<option>`: Options inside a `<select>` dropdown.
+* `<label for="input-id">`: Defines a label for an input element.
+* `<input type="text" name="username" placeholder="Enter username">`: User input control (text, checkbox, etc).
+* `<textarea name="message" rows="4" cols="50">`: Multi-line text input.
+* `<button type="submit">`: Clickable button.
+* `<select name="dropdown">`: Dropdown list.
+* `<option value="1">`: Options inside a `<select>` dropdown.
 
 ### ⚙️ Metadata & Scripts
 
-* `<style>`: Embeds CSS styles inline.
-* `<script>`: Embeds JavaScript inline.
-* `<link>`: Links to external files (like stylesheets).
-* `<meta>`: Defines metadata.
+* `<style type="text/css">`: Embeds CSS styles inline.
+* `<script type="text/javascript">`: Embeds JavaScript inline.
+* `<link rel="stylesheet" href="style.css">`: Links to external files (like stylesheets).
+* `<meta charset="UTF-8">`: Defines metadata.
 * `<title>`: Sets the document's title.
 
 ___
