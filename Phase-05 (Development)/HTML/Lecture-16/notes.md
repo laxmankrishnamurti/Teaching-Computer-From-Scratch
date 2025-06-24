@@ -11,7 +11,8 @@
 * `<dd>`: Description/details of the term in a description list.
 
 👩‍🏫 When to Use It (DL,DT,DD):
-Use a <dl> list when:
+
+Use a `<dl>` list when:
 
 - You're defining terms and their meanings
 - Showing question-answer pairs
